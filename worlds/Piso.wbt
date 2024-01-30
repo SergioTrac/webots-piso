@@ -1,0 +1,772 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.1993573137268233 0.1506193480241622 -0.9682822282084916 1.7628111930990995
+  position 2.0911044134281926 17.853634767884074 7.592833289225183
+}
+TexturedBackground {
+}
+Group {
+  children [
+    Solid {
+      translation 0.71 1.01 3
+      children [
+        SpotLight {
+          attenuation 0 0 1
+          beamWidth 0.4
+          cutOffAngle 1.5707963267948966
+          intensity 4
+          radius 200
+          castShadows TRUE
+        }
+      ]
+    }
+    Solid {
+      translation 2.22 7.39 3
+      children [
+        SpotLight {
+          attenuation 0 0 1
+          beamWidth 0.4
+          cutOffAngle 1.5707963267948966
+          intensity 4
+          radius 200
+          castShadows TRUE
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation 2.65 3.54 3
+      children [
+        SpotLight {
+          attenuation 0 0 1
+          beamWidth 0.4
+          cutOffAngle 1.5707963267948966
+          intensity 4
+          radius 200
+          castShadows TRUE
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation -2.5 3.31 3
+      children [
+        SpotLight {
+          attenuation 0 0 1
+          beamWidth 0.4
+          cutOffAngle 1.5707963267948966
+          intensity 4
+          radius 200
+          castShadows TRUE
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation -2.66 7.29 3
+      children [
+        SpotLight {
+          attenuation 0 0 1
+          beamWidth 0.4
+          cutOffAngle 1.5707963267948966
+          intensity 4
+          radius 200
+          castShadows TRUE
+        }
+      ]
+      name "solid(4)"
+    }
+  ]
+}
+Group {
+  children [
+    Solid {
+      translation -8.13 14.47 22.64
+      children [
+        Shape {
+          geometry Plane {
+            size 20 20
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+  ]
+}
+TexturedBackgroundLight {
+}
+Group {
+  children [
+    Solid {
+      translation -2.7 9.05 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Mesh {
+            url [
+              "meshes/heater.dae"
+            ]
+          }
+        }
+      ]
+      name "Heater"
+      boundingObject Mesh {
+        url [
+          "meshes/heater.dae"
+        ]
+      }
+    }
+    Solid {
+      translation -2.8 4.71 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_BaseColor.png"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Roughness.png"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Metallic.png"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Normal.png"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Emissive.png"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/table1.dae"
+            ]
+          }
+        }
+      ]
+      name "Table1"
+      boundingObject Mesh {
+        url [
+          "meshes/table1.dae"
+        ]
+      }
+    }
+    Solid {
+      translation -2.8 6.52 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_BaseColor.png"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Roughness.png"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Metallic.png"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Normal.png"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/mesa_1/mesa1_Mesa1_Emissive.png"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/table1.dae"
+            ]
+          }
+        }
+      ]
+      name "Table1(1)"
+      boundingObject Mesh {
+        url [
+          "meshes/table1.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 0 4.23 3
+      rotation 1 0 0 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            roughness 1
+            metalness 0
+          }
+          geometry Plane {
+            size 10 13
+          }
+        }
+      ]
+      name "Ceiling"
+    }
+    Solid {
+      translation 3.34 5.05 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/fridge/fridge_Fridge_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/fridge/fridge_Fridge_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/fridge/fridge_Fridge_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/fridge/fridge_Fridge_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/fridge/fridge_Fridge_Emissive.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/fridge.dae"
+            ]
+          }
+        }
+      ]
+      name "Fridge"
+      boundingObject Mesh {
+        url [
+          "meshes/fridge.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 0.32 7.54 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/maquinaRetro/retro_MaquinaRetro_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/maquinaRetro/retro_MaquinaRetro_Roughness.png"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/maquinaRetro/retro_MaquinaRetro_Metallic.png"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/maquinaRetro/retro_MaquinaRetro_Normal.png"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/maquinaRetro/retro_MaquinaRetro_Emissive.png"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/retro.dae"
+            ]
+          }
+        }
+      ]
+      name "Retro"
+      boundingObject Mesh {
+        url [
+          "meshes/retro.dae"
+        ]
+      }
+    }
+    Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_diff_2k.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_rough_2k.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_nor_dx_2k.jpg"
+              ]
+            }
+            occlusionMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_ao_2k.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/rodapies.dae"
+            ]
+          }
+        }
+      ]
+      name "Rodapies"
+      boundingObject Mesh {
+        url [
+          "meshes/rodapies.dae"
+        ]
+      }
+    }
+    Solid {
+      translation -2.91 2.47 0
+      children [
+        Solid {
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColorMap ImageTexture {
+                  url [
+                    "textures/pizarra/pizarra_Pizarra_BaseColor.jpg"
+                  ]
+                }
+                roughnessMap ImageTexture {
+                  url [
+                    "textures/pizarra/pizarra_Pizarra_Roughness.jpg"
+                  ]
+                }
+                metalnessMap ImageTexture {
+                  url [
+                    "textures/pizarra/pizarra_Pizarra_Metallic.jpg"
+                  ]
+                }
+                normalMap ImageTexture {
+                  url [
+                    "textures/pizarra/pizarra_Pizarra_Normal.jpg"
+                  ]
+                }
+                emissiveColorMap ImageTexture {
+                  url [
+                    "textures/pizarra/pizarra_Pizarra_Emissive.jpg"
+                  ]
+                }
+              }
+              geometry Mesh {
+                url [
+                  "meshes/blackboard.dae"
+                ]
+              }
+            }
+          ]
+          boundingObject Mesh {
+            url [
+              "meshes/blackboard.dae"
+            ]
+          }
+        }
+      ]
+      name "Blackboard"
+      boundingObject Mesh {
+        url [
+          "meshes/blackboard.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 3.04 2.42 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/worktop_4/encimera4_Worktop_4_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/worktop_4/encimera4_Worktop_4_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/worktop_4/encimera4_Worktop_4_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/worktop_4/encimera4_Worktop_4_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/worktop_4/encimera4_Worktop_4_Emissive.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/encimera4.dae"
+            ]
+          }
+        }
+      ]
+      name "Worktop4"
+      boundingObject Mesh {
+        url [
+          "meshes/encimera4.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 3.69 3.71 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/worktop_1/encimera1_Worktop1_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/worktop_1/encimera1_Worktop1_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/worktop_1/encimera1_Worktop1_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/worktop_1/encimera1_Worktop1_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/worktop_1/encimera1_Worktop1_Emissive.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/encimera1.dae"
+            ]
+          }
+        }
+      ]
+      name "Worktop1"
+      boundingObject Mesh {
+        url [
+          "meshes/encimera1.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 2.99 2.42 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/worktop_2/encimera2_Worktop2_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/worktop_2/encimera2_Worktop2_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/worktop_2/encimera2_Worktop2_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/worktop_2/encimera2_Worktop2_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/worktop_2/encimera2_Worktop2_Emissive.jpg"
+              ]
+            }
+            name "Worktop2"
+          }
+          geometry Mesh {
+            url [
+              "meshes/encimera2.dae"
+            ]
+          }
+        }
+      ]
+      name "Worktop2"
+      boundingObject Mesh {
+        url [
+          "meshes/encimera2.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 0.71 0.02 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Emissive.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/door.dae"
+            ]
+          }
+        }
+      ]
+      name "Door"
+      boundingObject Mesh {
+        url [
+          "meshes/door.dae"
+        ]
+      }
+    }
+    Solid {
+      translation -1.07 2.12 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/puerta/puerta_Puerta_Emissive.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "meshes/door.dae"
+            ]
+          }
+        }
+      ]
+      name "Door(1)"
+      boundingObject Mesh {
+        url [
+          "meshes/door.dae"
+        ]
+      }
+    }
+    Solid {
+      translation 1.84 3.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/worktop_3/encimera3_Worktop_3_BaseColor.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/worktop_3/encimera3_Worktop_3_Roughness.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/worktop_3/encimera3_Worktop_3_Metallic.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/worktop_3/encimera3_Worktop_3_Normal.jpg"
+              ]
+            }
+            emissiveColorMap ImageTexture {
+              url [
+                "textures/worktop_3/encimera3_Worktop_3_Emissive.jpg"
+              ]
+            }
+            name "worktop_3"
+          }
+          geometry Mesh {
+            url [
+              "meshes/encimera3.dae"
+            ]
+          }
+        }
+      ]
+      name "Worktop3"
+      boundingObject Mesh {
+        url [
+          "meshes/encimera3.dae"
+        ]
+      }
+    }
+    Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_diff_2k.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_rough_2k.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_nor_dx_2k.jpg"
+              ]
+            }
+            occlusionMap ImageTexture {
+              url [
+                "textures/laminate_floor/laminate_floor_03_ao_2k.jpg"
+              ]
+            }
+            name "LaminateFloor"
+          }
+          geometry Mesh {
+            url [
+              "meshes/floor.dae"
+            ]
+          }
+        }
+      ]
+      name "Floor"
+      boundingObject Mesh {
+        url [
+          "meshes/floor.dae"
+        ]
+      }
+    }
+    Solid {
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/pared/beige_wall_001_diff_4k.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "textures/pared/beige_wall_001_rough_2k.jpg"
+              ]
+            }
+            metalnessMap ImageTexture {
+              url [
+                "textures/pared/beige_wall_001_arm_2k.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "textures/pared/beige_wall_001_nor_dx_2k.jpg"
+              ]
+            }
+            normalMapFactor 0.7
+            occlusionMapStrength 0
+            emissiveIntensity 0
+            name "Wall"
+          }
+          geometry Mesh {
+            url [
+              "meshes/wall.dae"
+            ]
+          }
+        }
+      ]
+      name "Wall"
+      boundingObject Mesh {
+        url [
+          "meshes/wall.dae"
+        ]
+      }
+      locked TRUE
+    }
+  ]
+}
